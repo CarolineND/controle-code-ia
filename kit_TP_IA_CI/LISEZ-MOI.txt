@@ -1,0 +1,8 @@
+Kit de démarrage — TP « Faire contrôler son code par une IA… et par des tests »
+
+1_fichiers_a_deposer : les 5 fichiers à glisser dans ton projet GitHub (étape 1).
+                       Glisse les FICHIERS, pas le dossier.
+2_pipeline_a_copier  : le texte à copier-coller dans GitHub (étape 3).
+                       Ouvre-le avec le Bloc-notes, Ctrl+A, Ctrl+C.
+
+Suis l'énoncé pas à pas : après chaque étape, il indique ce que tu dois voir à l'écran.
