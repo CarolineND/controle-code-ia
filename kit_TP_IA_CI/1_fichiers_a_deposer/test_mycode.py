@@ -32,8 +32,8 @@ class TestFactorielle:
         assert factorielle(5) == 120
 
     def test_negatif_leve_valueerror(self):
-    with pytest.raises(ValueError):
-        factorielle(-1)
+        with pytest.raises(ValueError):
+             factorielle(-1)
        
 
     def test_flottant_leve_valueerror(self):
