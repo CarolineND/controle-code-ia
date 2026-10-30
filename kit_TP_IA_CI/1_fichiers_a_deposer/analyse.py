@@ -14,7 +14,9 @@ MODELES = ["gemini-flash-latest", "gemini-3.5-flash-lite"]
 # ✍️ EXERCICE 1 : remplace « À COMPLÉTER » par ta consigne pour Gemini.
 # Indique : son rôle, ce qu'il doit produire, la forme de la réponse, la langue.
 # Ne touche pas à la ligne {code} : c'est là que le code sera inséré.
-PROMPT = """À COMPLÉTER
+PROMPT = """Tu es un expert en revue de code Python. Analyse le code ci-dessous et 
+réponds en Français, en trois parties : 1. les bugs détectés, avec une explication courte ; 2. 
+la solution ; 3. les améliorations à effectuer. 
 
 Code à analyser :
 {code}
