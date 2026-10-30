@@ -1,6 +1,4 @@
 # mycode.py — version corrigée
-
-
 def division(a, b):
     """Divise a par b et retourne le résultat."""
     if b == 0:
@@ -17,3 +15,8 @@ def factorielle(n):
     if n == 0:
         return 1
     return n * factorielle(n - 1)
+
+
+
+
+
