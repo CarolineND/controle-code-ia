@@ -7,6 +7,9 @@ on:
 jobs:
   analyse-et-tests:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./1_fichiers_a_deposer
 
     steps:
       - name: Récupérer le code
@@ -38,6 +41,6 @@ jobs:
         with:
           name: resultats-ci
           path: |
-            test_report.pdf
-            analyse_result.txt
+            Kit_TP_IA_CI/1_fichiers_a_deposer/test_report.pdf
+            Kit_TP_IA_CI/1_fichiers_a_deposer/analyse_result.txt
           retention-days: 30
